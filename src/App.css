@@ -1,0 +1,163 @@
+.pic{
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+  margin-top: 5%;
+  border-radius: 50%;
+  margin-left: 35%;
+  margin-top: 25%; 
+}
+
+.Navbar{
+  background: linear-gradient(rgb(48, 60, 128),black);
+  font-size: 15px;
+  font-family: 'Lexend Mega', sans-serif;
+}
+
+.link{
+  color: white;
+}
+.link:hover{
+  color: rgb(115, 116, 122);
+}
+html{
+  background-color: black;
+}
+.backG{
+  background-color: black
+}
+.name{
+  color: white;
+  font-size: 5em;
+  text-align: center;
+  margin-top: 15%;
+  font-family: 'Fredericka the Great', cursive;
+  font-stretch: ultra-expanded;
+}
+.frontend{
+  font-size: 1.3em;
+  text-align: center;
+  color: rgb(69, 84, 170);
+  font-family: 'Lexend Mega', sans-serif;
+}
+.icon{
+  margin-right: 22%;
+  margin-top: 7%;
+  cursor: pointer; 
+  animation-name: aniIcon;
+  animation-duration: 1.5s; 
+}
+@keyframes aniIcon {
+  0%{ margin-right: -22%;}
+  100%{ margin-right: 22%;}
+}
+.icon:hover{
+  color: rgb(69, 84, 170);
+}
+.heading{
+  font-size: 3em;
+  color: white;
+  margin-top: 6%;
+  font-family: 'Lexend Mega', sans-serif;
+}
+.card-text{
+  color: white;
+  text-align: center;
+  margin-top: 5px;
+}
+.card{
+  margin-top: 15%;
+  transition: 0.5s;
+  animation-name: aniCard;
+  animation-duration: 0.6s;
+
+}
+@keyframes aniCard {
+  0%{ right: 20%;}
+  100%{ right: 0%;} 
+}
+.card-body{
+  background-color:black;
+}
+
+.card:hover{
+  box-shadow: 0px 5px 5px rgb(48, 60, 128);
+  opacity: 0.8;
+}
+.about{
+  margin-top: 8%;
+  color: rgba(141, 134, 134, 0.822);
+  font-size: 1em;
+  text-align: center;
+  font-family: 'Lexend Mega', sans-serif;
+}
+.animation{
+  width: 100%;
+  height: 70%;
+  background: linear-gradient(black,rgb(74, 99, 240),black);
+  position: absolute;
+  z-index: 2;
+  animation-name: aniAni;
+  animation-duration: 4s; 
+  opacity: 1;
+  margin-top: 7%;  
+}
+@keyframes aniAni {
+  0%{ width:100%; opacity: 0;}
+  50%{ width:100%; opacity: 0;}
+  100%{ width: 100%; opacity: 1;}  
+}
+.introHead1{
+  padding: 18% 0px 0px 0px;
+  text-align: center;
+  color: white;
+  font-size: 3em;
+  position: relative;
+}
+.welcome{
+  text-align: center;
+  color: black;
+  font-size: 3em; 
+  animation-name: aniWel;
+  animation-duration: 4s;
+  opacity: 1;
+  padding-top: 13%;
+  vertical-align: middle;
+  font-family: 'Lexend Mega', sans-serif;
+  font-weight: 900;
+}
+@keyframes aniWel {
+  0%{opacity: 0;}
+  50%{opacity: 0;}
+  100%{opacity: 1;}
+}
+.developer{
+  color: white;
+  font-size: 2.2em;
+  position: absolute;
+  padding-top: 20%;
+  padding-left: 26%;
+  font-family: 'Lexend Mega', sans-serif;
+  font-weight: 900;
+  opacity: 0;
+  animation-name: aniDev;
+  animation-duration: 2.5s;
+}
+@keyframes aniDev {
+  0%{opacity: 1;}
+  40%{opacity: 1;}
+  100%{opacity: 0;}
+}
+.small{
+  margin-top: 8%;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
+.skill{
+  margin-left: 20%;
+  margin-top: 10%;
+}
+.skill:hover{
+  color: rgb(69, 84, 170);
+}
